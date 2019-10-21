@@ -1,0 +1,216 @@
+//
+//  QuestionBank.swift
+//  Kasteleken
+//
+//  Created by Syvert Andreas Eidjord on 13/09/2019.
+//  Copyright © 2019 Eidjord Marketing. All rights reserved.
+//
+
+import Foundation
+
+class QuestionBank{
+    
+    var list = [Question]()
+    
+    init(gameMode : Int){
+        
+        // Standard
+        if gameMode == 1 {
+            list.append(Question(text: NSLocalizedString( "Hvem har finest øyne?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem onanerer mest?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har hatt trekant?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har best rompe?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem gifter seg for pengene?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har ligget med flest?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem får kjæreste iløpet av året?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har sexleketøy?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er prohoe? (ligger med folk pga høy status/inntekt)", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem gleder seg til å starte familie?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er mest voksen for alderen?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har den lyseste fremtiden?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem passer på Paradise Hotel?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem blir ei ung mor?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er evig student?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem slipper ikke inn på byen ikveld?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er født drita?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem nyter studentlivet mest?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er en blotter?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har den sykeste latteren?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem får napp pga antrekket sitt i kveld?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem bryr seg mest om utseendet?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har smisket seg til bedre karakterer?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har størst penis?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem elsker alle foreldre?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er alle gutters/jenters drøm?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har best stil?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem lever livet som hver dag er den siste?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har hatt analsex?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem liker å bli fistet?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er mest egoistisk?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er best i senga?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har mest spennende pupper?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er mest desp?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem ligger mest sannsynlig med 4 på en kveld?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er mest aktiv på tinder?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kunne funne på å ta med en flaske vodka på skolen, istedenfor vann?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er alltid dressed to impress?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er mest slutty?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem synger finest?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har de beste fylle historiene?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er fullest akkurat nå?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kunne risikert sitt liv for en annens?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er overtroisk?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem går med kosebukse på fest?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kunne tatt piercing i underlivet?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kunne flasha ford bartenderen for en shot?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har de beste danseskillsa?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kunne gitt en fyr/jente blowjob/slikka på dansegulvet?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kunne ligget med faren/moren til en venn/venninne?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem spyr først på byen?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem blir mest trolig langer?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har grinet under sex?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kunne løpt naken gjennom byen?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem hadde ikke overlevd i jungelen?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har hatt flest friends with benenfits?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem drikker oftest?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem hooker med de yngste?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er pappagutt/jente?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er mest kakse", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kjøper mest nattmat?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem drikker aldri?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem hooker med eldre?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kjøper klær for status over komfort?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er den yngste?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er den eldste?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har det søteste fjeset?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er kjekkest/søtest?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem i dette rommet kunne du hooket med i dag?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har det beste antrekket?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har best musikksmak?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har hatt sex i ett tre?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har den fineste stemmen?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem trenger mer drikke?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har de dyreste skoene?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har det beste skjegget?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er dum nok til å svelge en kork?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem bruker mest penger?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem bruker mest penger på byen?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er mest festlig?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem stiller alltid opp?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er mest romantisk?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er mest arbeidsnarkoman?", comment:""), type: .kaste))
+            //UPDATE 1.3
+            list.append(Question(text: NSLocalizedString( "Hvem ville heller hatt en rolig kveld med en god film?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er dårligst i sport?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er størst fotball-fan?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem betaler alltid for taxi?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kjøpet alltid shots på byen?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem leker ofte med livet?", comment:""), type: .kaste))
+            
+            
+            
+        }
+            
+        // Klein
+        else if gameMode == 2 {
+            
+            list.append(Question(text: NSLocalizedString( "Hvem kjøper porno?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er pisket?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er evig student?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kunne fått seg en sugardaddy/mommy?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har på seg dyrest outfit?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem blir single for livet?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem hooker aldri?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har flere pulevenner?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem vil alltid drikke?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem drikker aldri øl?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem drikker bare sprit?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er alltid kåt?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem liker å fiste/bli fistet?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har hatt klamydia?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har gitt/fått en golden shower?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har trangest fitte/størst kuk?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem liker anal best?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem liker smaken på sæd?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kunne kjøpt sex?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er mest høylytt under sex?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem trenger å sjekke seg for STD?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har de fineste ballene?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er pisket?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem trenger mer drikke?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har finest rompe?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har onanert med en frukt?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem rir best?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem onanerer mest?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har blitt pumpa?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har finest kropp?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem sin søster/bror kunne du hooket med?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har en MILF/DILF?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem liker en finger i rompen?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem blir aldri gift?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har kjøpt en hore?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem squirter?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har kjøpt en lap dance?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har dårligst musikksmak?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem spør alltid etter snus?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem får alt servert på et sølvfat?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem vil du ligge med i kveld?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem vil alltid spille drikkeleker?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har kamasutra?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er flink og bruker alltid kondom?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har du våte drømmer om?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er alkoholiker?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem trenger viagra?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har en MILF/DILF?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er den største pinglen?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem holder ut lengst?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem fiser mest?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har hatt sex på mest kinky sted?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem vil eksperimentere med samme kjønn?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har hatt mest sex denne uken?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har den skitneste internet historie-logg?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kommer i fyllearresten?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem får aldri orgasme?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem syntes sex er kjedelig?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem sovner mens de har sex?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem løper naken inn i fuglekassen?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem trenger et ligg?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har ingen standarder?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kan flest sexposisjoner?", comment:""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har gjort flest sexposisjoner?", comment:""), type: .kaste))
+            // UPDATE 1.3
+            list.append(Question(text: NSLocalizedString( "Hvem kjøper sexleketøy som gave?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem må bli flinkere i senga?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har fot-fetisj?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er dårlig til å flørte?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem burde ta av seg noen plagg?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem trenger en slurk?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kjøper voksen-magasiner?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem vil for alltid være jomfry?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er en håpløs romantiker?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem liker bondage?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem elsker BDSM?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har mest kinky sex?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er komfortabel med seksualiteten sin?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har du følelser for i dette rommet?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kunne betalt for noe med sex??", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem følgte ikke med i sex-undervisningen?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har merkelige sex-fantasier?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem kjøper sexleketøy som gave?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem har størst pupper?", comment: ""), type: .kaste))
+            list.append(Question(text: NSLocalizedString( "Hvem er dummest i fylla?", comment: ""), type: .kaste))
+            
+            
+            
+
+            
+            
+        }
+        
+    }
+    
+}
+
+
+
+

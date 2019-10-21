@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6EF-Sy-fXS"; */
+"6EF-Sy-fXS.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Neste"; ObjectID = "Bvr-ga-7TF"; */
+"Bvr-ga-7TF.normalTitle" = "Neste";
+
+/* Class = "UILabel"; text = "Challenge"; ObjectID = "N16-Wt-TJ9"; */
+"N16-Wt-TJ9.text" = "Challenge";
+
+/* Class = "UILabel"; text = "Just some question text"; ObjectID = "VFV-f0-N3F"; */
+"VFV-f0-N3F.text" = "Just some question text";
+
+/* Class = "UILabel"; text = "Hvor mange spørsmål?"; ObjectID = "Xmi-n9-w9b"; */
+"Xmi-n9-w9b.text" = "Hvor mange spørsmål?";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "ats-Y5-0Kl"; */
+"ats-Y5-0Kl.normalTitle" = "Start";
+
+/* Class = "UIButton"; normalTitle = "Klein"; ObjectID = "fMz-If-O2X"; */
+"fMz-If-O2X.normalTitle" = "Klein";
+
+/* Class = "UIButton"; normalTitle = "Restore Purchases"; ObjectID = "g8i-rt-El6"; */
+"g8i-rt-El6.normalTitle" = "Restore Purchases";
+
+/* Class = "UIButton"; normalTitle = "Standard"; ObjectID = "p3F-Dg-SGo"; */
+"p3F-Dg-SGo.normalTitle" = "Standard";
+
+/* Class = "UIViewController"; title = "Menu"; ObjectID = "q0G-rs-NGM"; */
+"q0G-rs-NGM.title" = "Menu";
+
+/* Class = "UILabel"; text = "Antal spørsmål før challenge"; ObjectID = "tMj-N4-f9b"; */
+"tMj-N4-f9b.text" = "Antal spørsmål før challenge";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wgl-la-2dk"; */
+"wgl-la-2dk.text" = "Label";
